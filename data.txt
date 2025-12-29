@@ -1,0 +1,15 @@
+Retrieval Augmented Generation (RAG) is a technique that improves large language models by allowing them to retrieve information from external documents before generating an answer.
+
+In a RAG system, documents are first split into smaller chunks. These chunks are converted into numerical vectors using embedding models such as sentence-transformers.
+
+These embeddings are stored in a vector database like Chroma or FAISS. When a user asks a question, the system retrieves the most relevant document chunks from the vector database.
+
+The retrieved information is then provided as context to a language model. This helps the model generate accurate and grounded answers instead of hallucinating.
+
+Groq is a platform that provides extremely fast inference for large language models like LLaMA 3.1. It is commonly used for building real-time AI applications.
+
+LangChain is a framework that helps developers build applications using large language models. It provides tools for document loading, text splitting, embeddings, vector stores, and chains.
+
+Chroma is a vector database often used with LangChain. It can store embeddings locally using SQLite and does not require hnswlib to function.
+
+SentenceTransformers such as all-MiniLM-L6-v2 are commonly used to generate embeddings for semantic search and retrieval tasks.
