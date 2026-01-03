@@ -1,4 +1,4 @@
-RAG Chatbot with Groq and LangChain
+2) RAG Chatbot with Groq and LangChain
 
 This project implements a hybrid Retrieval-Augmented Generation (RAG) chatbot.
 The chatbot uses uploaded text data when it is relevant to the user’s query and otherwise responds using the language model’s general knowledge.
